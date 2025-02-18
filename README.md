@@ -1,6 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vetero Crackers
+
+Track your time, tasks, and feelings easily
 
 ## Getting Started
+
+### initiation PocketBase
+
+head over to PocketBase and download [`v0.25.1 for Windows x64`](https://github.com/pocketbase/pocketbase/releases/download/v0.25.1/pocketbase_0.25.1_windows_amd64.zip)
+inside the `database` directory.
+
+Afterwards, open a new terminal within `database` and run `database/pocketbase serve` to create a new database instance (without any data)
+
+make sure to apply migrations using `./pocketbase migrate` (we will only track migrations)
+
+### nextjs
 
 First, run the development server:
 
